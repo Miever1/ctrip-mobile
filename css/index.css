@@ -1,0 +1,75 @@
+body {
+    max-width: 540px;
+    min-width: 320px;
+    color: #000;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font: normal 14px/1.5 Tahoma,"Lucida Grande",Verdana,"Microsoft Yahei",STXihei,hei;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  
+
+/*搜索模块开始 start*/
+.search-index {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*固定定位跟父级无关，其以屏幕为准*/
+    min-width: 320px;
+    max-width: 540px;
+    /*固定定位得要宽度*/
+    width: 100%;
+    background-color: skyblue;
+    height: 44px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    display: flex;
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.search-box {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    background-color: #fff;
+    border-radius: 14px;
+    color: #666;
+}
+
+.search-box svg {
+    margin: 0 10px;
+    color: skyblue;
+}
+
+.user {
+    width: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.user svg {
+    width: 22px;
+    height: 22px;
+    color: #fff;
+    margin:4px 0 0 14px;
+    display: block;
+}
+
+/*搜索模块结束 end*/
